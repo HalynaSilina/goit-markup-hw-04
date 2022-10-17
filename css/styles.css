@@ -104,8 +104,8 @@ img {
 }
 .site-nav .link {
 	display: inline-block;
-	padding-top: 24px;
-	padding-bottom: 25px;
+	padding-top: 32px;
+	padding-bottom: 32px;
 
 	font-weight: 500;
 	font-size: 14px;
@@ -128,8 +128,8 @@ img {
 }
 .contact .link {
 	display: inline-block;
-	padding-top: 24px;
-	padding-bottom: 25px;
+	padding-top: 32px;
+	padding-bottom: 32px;
 
 	font-weight: 500;
 	font-size: 14px;
