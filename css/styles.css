@@ -2,6 +2,8 @@
 	--primary-white-color: #ffffff;
 	--primary-bg-color: #2f303a;
 	--secondary-bg-color: #f5f4fa;
+	--hero-bg-color: #C4C4C4;
+	--hero-gradient: rgba(47, 48, 58, 0.4);
 	--primary-black-color: #000000;
 	--primary-text-color: #757575;
 	--secondary-text-color: #212121;
@@ -126,7 +128,7 @@ img {
 	margin-right: 0;
 	margin-left: auto;
 }
-.contact .link {
+.contact-link {
 	display: inline-block;
 	padding-top: 32px;
 	padding-bottom: 32px;
@@ -137,20 +139,39 @@ img {
 	letter-spacing: 0.02em;
 	color: var(--primary-text-color);
 }
-.contact .link:hover,
-.contact .link:focus {
+.contact-link:hover,
+.contact-link:focus {
 	color: var(--primary-accent-color);
 }
+.mail-icon {
+	margin-right: 10px;
+
+	fill: currentColor;
+}
+.tel-icon {
+	margin-right: 10px;
+
+	fill: currentColor;
+}
 .contact .item + .item {
-	margin-left: 50px;
+	margin-left: 30px;
 }
 /* Hero */
 .hero {
-	padding-top: 200px;
-	padding-bottom: 200px;
 	text-align: center;
 
-	background-color: var(--primary-bg-color);
+	background-color: var(--hero-bg-color);
+}
+.hero-overlay {
+	max-width: 1600px;
+	height: 600px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: linear-gradient(var(--hero-gradient), var(--hero-gradient)), url(../images/webstudio-hero-bg.jpg);
+	background-size: cover;
+	background-position: center;
 }
 .hero-title {
 	margin-bottom: 30px;
